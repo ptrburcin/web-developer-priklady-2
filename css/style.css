@@ -1,0 +1,93 @@
+* {
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.hlavny{
+    background-color: red;
+    margin: 0 auto;
+    max-width: 1200px;
+    border-radius: 25px;
+}
+
+.hlavicka {
+    background-color: blue;
+    height: 50px;
+}
+
+.riadok{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.lavy {
+    background-color: aqua;
+    flex: 3;
+}
+
+.stredny {
+    background-color: coral;
+    flex: 1;
+
+}
+
+.pravy {
+    background-color: orange;
+    flex: 1;
+}
+
+.patka {
+    background-color: gold;
+}
+
+@media screen and (max-width: 600px) {
+    .riadok {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px)
+
+.obrazok {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: aquamarine;
+}
+.logo
+{
+    color: deeppink;
+    font-size: 32px;
+    font-family: Arial;
+}
+.skratka{
+    color: chartreuse;
+}
+.skratka2
+{
+    color: gold;
+}
+
+div ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+div li {
+    display: inline-block;
+    margin-right:  10px;
+}
+
